@@ -1,0 +1,100 @@
+/*#body {
+    padding-top: 10px;
+}
+
+.navbar {
+    background-color: white;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.navbar .container {
+    background-color: #008a00;
+    background-image: -moz-linear-gradient(top, #008a00, #006b00);
+    background-image: -ms-linear-gradient(top, #008a00, #006b00);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#008a00), to(#006b00));
+    background-image: -webkit-linear-gradient(top, #008a00, #006b00);
+    background-image: -o-linear-gradient(top, #008a00, #006b00);
+    background-image: linear-gradient(top, #008a00, #006b00);
+}
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.btn {
+    background-color: white;
+}
+
+.icon-white {
+    color: white;
+}
+
+*/
+
+/* Create the horizontal scrolling module */
+#cards .module-body {
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#cards .module-body > div {
+    white-space: nowrap;
+}
+
+#cards h3 {
+    font-weight: bold;
+}
+
+/* the report thumbnail goes in a data-container */
+/*noinspection CssUnusedSymbol*/
+#cards .module-body > div.card-container {
+    display: inline-block;
+    width: 170px;
+    height: 70px;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 3px;
+    margin-bottom: 8px;
+    border : 2px solid #e1e1e1;
+}
+
+/*noinspection CssUnusedSymbol*/
+#cards .module-body > div.card-container:hover {
+    /* TODO use a named brand color */
+    background-color: #d5f0f9;
+/ / #eef9fd;
+/ / to be changed to cyanLight
+}
+
+#cards .module-body > div.selected {
+    border-color: #0098d6;
+}
+
+.selected {
+    border-color: #0098d6;     
+    background-color: #88d5ee;
+}
+.hospdiv{
+	display: inline-block;
+    width: 200px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 3px;
+    margin-bottom: 8px;
+    border : 2px solid #e1e1e1;
+}
+.hospdiv:hover{
+	 background-color: #d5f0f9;
+}

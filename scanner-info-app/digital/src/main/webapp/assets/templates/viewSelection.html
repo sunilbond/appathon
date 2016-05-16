@@ -1,0 +1,6 @@
+<div class="col-xs-12" id="viewselection">
+    <div id="viewselected" >
+		<select ng-model="viewTypeSelected" ng-options="opt as opt for opt in viewTypeOptions"
+			ng-init="viewTypeSelected" ng-change="updateView(viewTypeSelected)"></select>
+    </div>
+</div>
